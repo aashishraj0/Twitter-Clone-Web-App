@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Homework 10 - BOM</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="wrapper">
+        <div id="alertMessage" class="hidden">
+          <span id="alertMessageText"></span>
+        </div>
+
+        <div id="tweetItems" class="tweet-list">
+          <h1>Simple Twitter</h1>
+
+          <div class="button-groups">
+            <button id="addTweet">Add tweet</button>
+            <button id="likedList">Go to liked</button>
+            <button id="goBack">Go back</button>
+          </div>
+
+          <ul id="tweetList" class="tweets"></ul>
+        </div>
+
+        <div id="modifyItem" class="tweet-box">
+          <h1 id="modifyItemHeader">Edit tweet</h1>
+          <textarea id="modifyItemInput"></textarea>
+          <div class="formButtons">
+            <button id="cancelModification">Cancel</button>
+            <button id="saveModifiedItem">Save Changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
